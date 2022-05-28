@@ -1,0 +1,1 @@
+print('Konfuzius once said, "Choose a job, which you love, and you\'ll never have to work"')
