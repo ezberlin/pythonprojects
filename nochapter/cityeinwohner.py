@@ -25,44 +25,15 @@ while(end != "nein"):
     "augsburg" : 296_478,
     "wiesbaden" : 278_950,
     "mönchengladbach" : 261_001,
-    "Berlin" : 3_677_472, 
-    "Hamburg" : 1_853_935, 
-    "München" : 1_487_708,
-    "Köln" : 1_073_096,
-    "Frankfurt" : 759_224,
-    "Stuttgart" : 626_275,
-    "Düsseldorf" : 619_477,
-    "Leipzig" : 601_866,
-    "Dortmund" : 586_852,
-    "Essen" : 579_432,
-    "Bremen" : 563_290,
-    "Dresden" : 555_351,
-    "Hannover" : 535_932,
-    "Nürnberg" : 510_632,
-    "Duisburg" : 495_152,
-    "Bochum" : 363_441,
-    "Wuppertal" : 354_572,
-    "Bielefeld" : 334_002,
-    "Bonn" : 331_885,
-    "Münster" : 317_713,
-    "Mannheim" : 311_831,
-    "Karlsruhe" : 306_502,
-    "Augsburg" : 296_478,
-    "Wiesbaden" : 278_950,
-    "Mönchengladbach" : 261_001,
     "muenchen": 1_487_708,
     "koeln": 1_073_096,
     "duesseldorf": 619_477,
     "nuernberg": 510_632,
-    "moenchengladbach": 261_001,
-    "Muenchen": 1_487_708,
-    "Koeln": 1_073_096,
-    "Duesseldorf": 619_477,
-    "Nuernberg": 510_632,
-    "Moenchengladbach": 261_001}
+    "moenchengladbach": 261_001}
     city = input("Welche Stadt? ")
+    city = city.lower()
     if einwohner.get(city) == None:
-        print("Diese Stadt gehört nicht zu den 25 einwohnerreichsten Deutschlands.")
+        print("Diese Stadt gehört nicht zu den 25 einwohnerreichsten.")
     else:
         print(f"{city.title()} hat {einwohner[city]} Einwohner.")
     end = input("Möchtest du noch eine Stadt abfragen? (ja/nein) ")
