@@ -13,9 +13,10 @@ def isNumberPrime(n):
                     break
         if(dividers == 1):
             return 1
+        else:
+            return 0
     else:
         return 0
         print("no integer as n")
         
-        
-    
+print(isNumberPrime(2027))
