@@ -18,5 +18,3 @@ def isNumberPrime(n):
     else:
         return 0
         print("no integer as n")
-        
-print(isNumberPrime(2027))
