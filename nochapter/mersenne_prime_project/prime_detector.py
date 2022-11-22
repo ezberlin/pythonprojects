@@ -1,12 +1,11 @@
 def isNumberPrime(n):
-    import math
     n = str(n)
     dividers = 0 #dividers without 1
     if n.isdigit():
         n = int(n)
         if n == 1:
             return 0
-        for i in range(1, int(math.sqrt(n) + 1)):
+        for i in range(1, int(n ** 0.5) + 1):
             if(n / i == int(n / i)):
                 dividers = dividers + 1
                 if dividers == 2:
