@@ -26,7 +26,7 @@ def isNumberPrime(n):
         return 0
 
 mp_number = 0
-for n in range(1,1024):
-    if isNumberPrime(2**n-1):
+for a in range(1,1024):
+    if isNumberPrime(2**a-1):
         mp_number = mp_number + 1
-        print(f"{mp_number}: {2**n-1} (2^{n}-1)")
+        print(f"{mp_number}. mersenne: {2**a-1} (2^{a} - 1)")
