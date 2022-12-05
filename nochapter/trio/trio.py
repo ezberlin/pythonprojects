@@ -1,5 +1,11 @@
 import json
 
+def getCoordinates(x):
+    alphabet = {1 : "A", 2 : "B", 3 : "C", 4 : "D", 5 : "E", 6 : "F", 7 : "G"}
+    y = x % 7
+    z = (x - y) / (7) + 1
+    return f"{alphabet[y]}{int(z)}"
+
 def getStoredBoard():
     boardsave = "boardsave.json"
     try:
@@ -33,10 +39,7 @@ def enterNewBoard():
                         cur = int(cur)
                     except ValueError:
                         cur = input("Enter a number: ")
-            num = num + 1    
-            
-                
-        
+            num = num + 1         
     boardsave = "boardsave.json"
     with open(boardsave, "w") as f:
         json.dump(board, f)
@@ -77,11 +80,11 @@ while not answer == "N":
             element3 = boardy[t3 - 1]
             trio = element * element2 + element3
             if n == trio:
-                print(f"Found on index {t} times index {t2} plus index {t3}!")
+                print(f"Found on index {getCoordinates(t)} times index {getCoordinates(t2)} plus index {getCoordinates(t3)}!")
                 break
             trio = element * element2 - element3
             if n == trio:
-                print(f"Found on index {t} times index {t2} minus index {t3}!")
+                print(f"Found on index {getCoordinates(t)} times index {getCoordinates(t2)} minus index {getCoordinates(t3)}!")
                 break
         
         #up right
@@ -92,11 +95,11 @@ while not answer == "N":
             element3 = boardy[t3 - 1]
             trio = element * element2 + element3
             if n == trio:
-                print(f"Found on index {t} times index {t2} plus index {t3}!")
+                print(f"Found on index {getCoordinates(t)} times index {getCoordinates(t2)} plus index {getCoordinates(t3)}!")
                 break
             trio = element * element2 - element3
             if n == trio:
-                print(f"Found on index {t} times index {t2} minus index {t3}!")
+                print(f"Found on index {getCoordinates(t)} times index {getCoordinates(t2)} minus index {getCoordinates(t3)}!")
                 break
         #right
         if (t - 1) % 7 <= 4:
@@ -106,11 +109,11 @@ while not answer == "N":
             element3 = boardy[t3 - 1]
             trio = element * element2 + element3
             if n == trio:
-                print(f"Found on index {t} times index {t2} plus index {t3}!")
+                print(f"Found on index {getCoordinates(t)} times index {getCoordinates(t2)} plus index {getCoordinates(t3)}!")
                 break
             trio = element * element2 - element3
             if n == trio:
-                print(f"Found on index {t} times index {t2} minus index {t3}!")
+                print(f"Found on index {getCoordinates(t)} times index {getCoordinates(t2)} minus index {getCoordinates(t3)}!")
                 break
             
         #down right
@@ -121,11 +124,11 @@ while not answer == "N":
             element3 = boardy[t3 - 1]
             trio = element * element2 + element3
             if n == trio:
-                print(f"Found on index {t} times index {t2} plus index {t3}!")
+                print(f"Found on index {getCoordinates(t)} times index {getCoordinates(t2)} plus index {getCoordinates(t3)}!")
                 break
             trio = element * element2 - element3
             if n == trio:
-                print(f"Found on index {t} times index {t2} minus index {t3}!")
+                print(f"Found on index {getCoordinates(t)} times index {getCoordinates(t2)} minus index {getCoordinates(t3)}!")
                 break
             
         #down
@@ -136,11 +139,11 @@ while not answer == "N":
             element3 = boardy[t3 - 1]
             trio = element * element2 + element3
             if n == trio:
-                print(f"Found on index {t} times index {t2} plus index {t3}!")
+                print(f"Found on index {getCoordinates(t)} times index {getCoordinates(t2)} plus index {getCoordinates(t3)}!")
                 break
             trio = element * element2 - element3
             if n == trio:
-                print(f"Found on index {t} times index {t2} minus index {t3}!")
+                print(f"Found on index {getCoordinates(t)} times index {getCoordinates(t2)} minus index {getCoordinates(t3)}!")
                 break
             
         #down left
@@ -151,11 +154,11 @@ while not answer == "N":
             element3 = boardy[t3 - 1]
             trio = element * element2 + element3
             if n == trio:
-                print(f"Found on index {t} times index {t2} plus index {t3}!")
+                print(f"Found on index {getCoordinates(t)} times index {getCoordinates(t2)} plus index {getCoordinates(t3)}!")
                 break
             trio = element * element2 - element3
             if n == trio:
-                print(f"Found on index {t} times index {t2} minus index {t3}!")
+                print(f"Found on index {getCoordinates(t)} times index {getCoordinates(t2)} minus index {getCoordinates(t3)}!")
                 break
             
         #left
@@ -166,11 +169,11 @@ while not answer == "N":
             element3 = boardy[t3 - 1]
             trio = element * element2 + element3
             if n == trio:
-                print(f"Found on index {t} times index {t2} plus index {t3}!")
+                print(f"Found on index {getCoordinates(t)} times index {getCoordinates(t2)} plus index {getCoordinates(t3)}!")
                 break
             trio = element * element2 - element3
             if n == trio:
-                print(f"Found on index {t} times index {t2} minus index {t3}!")
+                print(f"Found on index {getCoordinates(t)} times index {getCoordinates(t2)} minus index {getCoordinates(t3)}!")
                 break
             
         #up left
@@ -181,11 +184,11 @@ while not answer == "N":
             element3 = boardy[t3 - 1]
             trio = element * element2 + element3
             if n == trio:
-                print(f"Found on index {t} times index {t2} plus index {t3}!")
+                print(f"Found on index {getCoordinates(t)} times index {getCoordinates(t2)} plus index {getCoordinates(t3)}!")
                 break
             trio = element * element2 - element3
             if n == trio:
-                print(f"Found on index {t} times index {t2} minus index {t3}!")
+                print(f"Found on index {getCoordinates(t)} times index {getCoordinates(t2)} minus index {getCoordinates(t3)}!")
                 break
             
         #up
@@ -196,11 +199,11 @@ while not answer == "N":
             element3 = boardy[t3 - 1]
             trio = element * element2 + element3
             if n == trio:
-                print(f"Found on index {t} times index {t2} plus index {t3}!")
+                print(f"Found on index {getCoordinates(t)} times index {getCoordinates(t2)} plus index {getCoordinates(t3)}!")
                 break
             trio = element * element2 - element3
             if n == trio:
-                print(f"Found on index {t} times index {t2} minus index {t3}!")
+                print(f"Found on index {getCoordinates(t)} times index {getCoordinates(t2)} minus index {getCoordinates(t3)}!")
                 break
     print("done!")
     answer = 0
