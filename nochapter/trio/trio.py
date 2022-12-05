@@ -12,7 +12,7 @@ def getStoredBoard():
         return board
 def enterNewBoard():
     board = []
-    for num in range(1,65):
+    for num in range(1,50):
         while len(board) != num:
             cur = input(f"OK. Please enter {num}. number: ")
             while cur == str(cur):
@@ -65,27 +65,12 @@ while not answer == "N":
             n = int(n)
         except ValueError:
             n = input("Enter an integer I should search for you: ")
-    for t in range (1, 65):
+    for t in range (1, 50):
         element = boardy[t - 1]
         element2 = 0
         element3 = 0
         #up
-        if t >= 17:
-            t2 = t - 8
-            t3 = t - 16
-            element2 = boardy[t2 - 1]
-            element3 = boardy[t3 - 1]
-            trio = element * element2 + element3
-            if n == trio:
-                print(f"Found on index {t} times index {t2} plus index {t3}!")
-                break
-            trio = element * element2 - element3
-            if n == trio:
-                print(f"Found on index {t} times index {t2} minus index {t3}!")
-                break
-        
-        #up right
-        if t >= 17 and (t - 1) % 8 <= 5:
+        if t >= 15:
             t2 = t - 7
             t3 = t - 14
             element2 = boardy[t2 - 1]
@@ -98,8 +83,23 @@ while not answer == "N":
             if n == trio:
                 print(f"Found on index {t} times index {t2} minus index {t3}!")
                 break
+        
+        #up right
+        if t >= 15 and (t - 1) % 7 <= 4:
+            t2 = t - 6
+            t3 = t - 12
+            element2 = boardy[t2 - 1]
+            element3 = boardy[t3 - 1]
+            trio = element * element2 + element3
+            if n == trio:
+                print(f"Found on index {t} times index {t2} plus index {t3}!")
+                break
+            trio = element * element2 - element3
+            if n == trio:
+                print(f"Found on index {t} times index {t2} minus index {t3}!")
+                break
         #right
-        if (t - 1) % 8 <= 5:
+        if (t - 1) % 7 <= 4:
             t2 = t + 1
             t3 = t + 2
             element2 = boardy[t2 - 1]
@@ -114,22 +114,7 @@ while not answer == "N":
                 break
             
         #down right
-        if t <= 47 and (t - 1) % 8 <= 5:
-            t2 = t + 9
-            t3 = t + 18
-            element2 = boardy[t2 - 1]
-            element3 = boardy[t3 - 1]
-            trio = element * element2 + element3
-            if n == trio:
-                print(f"Found on index {t} times index {t2} plus index {t3}!")
-                break
-            trio = element * element2 - element3
-            if n == trio:
-                print(f"Found on index {t} times index {t2} minus index {t3}!")
-                break
-            
-        #down
-        if t <= 47:
+        if t <= 34 and (t - 1) % 7 <= 4:
             t2 = t + 8
             t3 = t + 16
             element2 = boardy[t2 - 1]
@@ -143,8 +128,8 @@ while not answer == "N":
                 print(f"Found on index {t} times index {t2} minus index {t3}!")
                 break
             
-        #down left
-        if t <= 47 and (t - 1) % 8 >= 2:
+        #down
+        if t <= 34:
             t2 = t + 7
             t3 = t + 14
             element2 = boardy[t2 - 1]
@@ -158,8 +143,23 @@ while not answer == "N":
                 print(f"Found on index {t} times index {t2} minus index {t3}!")
                 break
             
+        #down left
+        if t <= 34 and (t - 1) % 7 >= 2:
+            t2 = t + 6
+            t3 = t + 12
+            element2 = boardy[t2 - 1]
+            element3 = boardy[t3 - 1]
+            trio = element * element2 + element3
+            if n == trio:
+                print(f"Found on index {t} times index {t2} plus index {t3}!")
+                break
+            trio = element * element2 - element3
+            if n == trio:
+                print(f"Found on index {t} times index {t2} minus index {t3}!")
+                break
+            
         #left
-        if (t - 1) % 8 >= 2:
+        if (t - 1) % 7 >= 2:
             t2 = t - 1
             t3 = t - 2
             element2 = boardy[t2 - 1]
@@ -174,9 +174,9 @@ while not answer == "N":
                 break
             
         #up left
-        if t >= 17 and (t - 1) % 8 >= 2:
-            t2 = t - 9
-            t3 = t - 18
+        if t >= 15 and (t - 1) % 7 >= 2:
+            t2 = t - 8
+            t3 = t - 16
             element2 = boardy[t2 - 1]
             element3 = boardy[t3 - 1]
             trio = element * element2 + element3
@@ -189,9 +189,9 @@ while not answer == "N":
                 break
             
         #up
-        if t >= 17:
-            t2 = t - 8
-            t3 = t - 16
+        if t >= 15:
+            t2 = t - 7
+            t3 = t - 14
             element2 = boardy[t2 - 1]
             element3 = boardy[t3 - 1]
             trio = element * element2 + element3
