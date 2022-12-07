@@ -3,7 +3,9 @@ import json
 def getCoordinates(x):
     alphabet = {1 : "A", 2 : "B", 3 : "C", 4 : "D", 5 : "E", 6 : "F", 7 : "G"}
     y = x % 7
-    z = (x - y) / (7) + 1
+    if y == 0:
+        y = 7
+    z = (x - y) / 7 + 1
     return f"{alphabet[y]}{int(z)}"
 
 def getStoredBoard():
@@ -39,7 +41,8 @@ def enterNewBoard():
                         cur = int(cur)
                     except ValueError:
                         cur = input("Enter a number: ")
-            num = num + 1         
+            board.append(cur)
+        num = num + 1         
     boardsave = "boardsave.json"
     with open(boardsave, "w") as f:
         json.dump(board, f)
@@ -210,6 +213,7 @@ while not answer == "N":
     while(answer != "N" and answer != "y"):
         answer = input("Would you like to retry? (y/N) ")
         answer = str(answer)
+print("Thanks for using!")
 
 
 
