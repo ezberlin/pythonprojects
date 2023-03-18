@@ -1,3 +1,4 @@
+import ezmath as ez
 import tkinter as tk
 import sympy as sy
 

@@ -1,18 +1,20 @@
-import json
+import json as js
+import ezmath as ez
+
 
 def getCoordinates(x):
     alphabet = {1 : "A", 2 : "B", 3 : "C", 4 : "D", 5 : "E", 6 : "F", 7 : "G"}
     y = x % 7
     if y == 0:
         y = 7
-    z = (x - y) / 7 + 1
+    z = ez.subtract(x, y) / 7 + 1
     return f"{alphabet[y]}{int(z)}"
 
 def getStoredBoard():
     boardsave = "boardsave.json"
     try:
         with open(boardsave) as f:
-            board = json.load(f)
+            board = js.load(f)
     except FileNotFoundError:
         return None
     else:
@@ -45,7 +47,7 @@ def enterNewBoard():
         num = num + 1         
     boardsave = "boardsave.json"
     with open(boardsave, "w") as f:
-        json.dump(board, f)
+        js.dump(board, f)
     print("saved!")        
     
     return board

@@ -1,5 +1,4 @@
 import math as ma
-import collections as co
 
 def add(*numbers):
     """adds numbers up"""
@@ -90,10 +89,6 @@ def squareRoot(number):
     """returns the root of a number"""
     return number ** 0.5
 
-def modulo(number, m):
-    """returns min non-negative d to: number is congruent to d modulo m"""
-    return number % m
-
 def findInvert(number, m):
     """returns d to (number times d) is congruent to 1 modulo m"""
     d = 1
@@ -113,27 +108,26 @@ def isNumberMersenne(number):
             return False
     return True
 
-def arithmeticMean(*numbers):
-    return sum(numbers)/len(numbers)
 
-def median(*numbers):
-    """returns the median of the numbers"""
-    numbers_list = list(numbers)
-    numbers_list.sort()
-    if len(numbers_list) % 2:
-        return numbers_list[int((len(numbers_list) - 1)/2)]
-    else:
-        n = len(numbers_list)/2 - 1
-        m = len(numbers_list)/2
-        return (numbers_list[int(m)] + numbers_list[int(n)])/2
+
+  
+
+
+
+
+        
     
-def areaTriangle(b, h):
-    """returns the area of a triangle by its side lenghts b and its height h"""
-    return b * h / 2
 
-def mode(*numbers):
-    counter = co.Counter(numbers)
-    mode_tuple = [k for k, v in counter.items() if v == max(counter.values())]
-    return mode_tuple
+
+
+
+
+
+
 
     
+
+
+
+
+
