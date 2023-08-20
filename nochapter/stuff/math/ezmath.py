@@ -134,6 +134,4 @@ def areaTriangle(b, h):
 def mode(*numbers):
     counter = co.Counter(numbers)
     mode_tuple = [k for k, v in counter.items() if v == max(counter.values())]
-    return mode_tuple
-
-    
+    return mode_tuple    
