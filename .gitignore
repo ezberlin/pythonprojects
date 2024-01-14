@@ -127,4 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-nochapter/vbbproject/settings.py
+nochapter/vbbproject/access.py
