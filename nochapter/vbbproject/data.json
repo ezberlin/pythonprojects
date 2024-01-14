@@ -1,0 +1,3664 @@
+{
+    "Departure": [
+        {
+            "JourneyDetailRef": {
+                "ref": "1|29716|1|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M19",
+                "internalName": "     M19",
+                "displayNumber": "M19",
+                "num": "44847",
+                "line": "M19",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M19"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M19",
+                    "internalName": "     M19",
+                    "displayNumber": "M19",
+                    "num": "44847",
+                    "line": "M19",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 8,
+                    "routeIdxTo": 26,
+                    "matchId": "M19"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 8,
+                        "routeIdxTo": 26,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 12
+                }
+            ],
+            "name": "M19",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "18:16:00",
+            "date": "2024-01-14",
+            "rtTime": "18:17:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "U Mehringdamm",
+            "directionFlag": "1"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|30755|29|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M29",
+                "internalName": "     M29",
+                "displayNumber": "M29",
+                "num": "45724",
+                "line": "M29",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M29"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M29",
+                    "internalName": "     M29",
+                    "displayNumber": "M29",
+                    "num": "45724",
+                    "line": "M29",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 35,
+                    "routeIdxTo": 45,
+                    "matchId": "M29"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 35,
+                        "routeIdxTo": 45,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 12
+                }
+            ],
+            "name": "M29",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "18:20:00",
+            "date": "2024-01-14",
+            "rtTime": "18:23:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "Grunewald, Roseneck",
+            "directionFlag": "2"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|30651|1|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M29",
+                "internalName": "     M29",
+                "displayNumber": "M29",
+                "num": "45612",
+                "line": "M29",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M29"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M29",
+                    "internalName": "     M29",
+                    "displayNumber": "M29",
+                    "num": "45612",
+                    "line": "M29",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 10,
+                    "routeIdxTo": 44,
+                    "matchId": "M29"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 10,
+                        "routeIdxTo": 44,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 11
+                }
+            ],
+            "name": "M29",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "18:21:00",
+            "date": "2024-01-14",
+            "rtTime": "18:21:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "U Hermannplatz",
+            "directionFlag": "1"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|29798|15|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M19",
+                "internalName": "     M19",
+                "displayNumber": "M19",
+                "num": "44932",
+                "line": "M19",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M19"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M19",
+                    "internalName": "     M19",
+                    "displayNumber": "M19",
+                    "num": "44932",
+                    "line": "M19",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 17,
+                    "routeIdxTo": 26,
+                    "matchId": "M19"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 17,
+                        "routeIdxTo": 26,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 11
+                }
+            ],
+            "name": "M19",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "18:25:00",
+            "date": "2024-01-14",
+            "rtTime": "18:25:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "S Grunewald",
+            "directionFlag": "2"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|29744|1|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M19",
+                "internalName": "     M19",
+                "displayNumber": "M19",
+                "num": "45022",
+                "line": "M19",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M19"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M19",
+                    "internalName": "     M19",
+                    "displayNumber": "M19",
+                    "num": "45022",
+                    "line": "M19",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 7,
+                    "routeIdxTo": 25,
+                    "matchId": "M19"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 7,
+                        "routeIdxTo": 25,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 12
+                }
+            ],
+            "name": "M19",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "time": "18:26:00",
+            "date": "2024-01-14",
+            "reachable": true,
+            "direction": "U Mehringdamm",
+            "directionFlag": "1"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|30755|30|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M29",
+                "internalName": "     M29",
+                "displayNumber": "M29",
+                "num": "45724",
+                "line": "M29",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M29"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M29",
+                    "internalName": "     M29",
+                    "displayNumber": "M29",
+                    "num": "45724",
+                    "line": "M29",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 35,
+                    "routeIdxTo": 45,
+                    "matchId": "M29"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 35,
+                        "routeIdxTo": 45,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 12
+                }
+            ],
+            "name": "M29",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "18:30:00",
+            "date": "2024-01-14",
+            "rtTime": "18:36:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "Grunewald, Roseneck",
+            "directionFlag": "2"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|30651|2|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M29",
+                "internalName": "     M29",
+                "displayNumber": "M29",
+                "num": "45612",
+                "line": "M29",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M29"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M29",
+                    "internalName": "     M29",
+                    "displayNumber": "M29",
+                    "num": "45612",
+                    "line": "M29",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 10,
+                    "routeIdxTo": 44,
+                    "matchId": "M29"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 10,
+                        "routeIdxTo": 44,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 11
+                }
+            ],
+            "name": "M29",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "18:31:00",
+            "date": "2024-01-14",
+            "rtTime": "18:31:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "U Hermannplatz",
+            "directionFlag": "1"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|29823|16|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M19",
+                "internalName": "     M19",
+                "displayNumber": "M19",
+                "num": "44959",
+                "line": "M19",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M19"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M19",
+                    "internalName": "     M19",
+                    "displayNumber": "M19",
+                    "num": "44959",
+                    "line": "M19",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 17,
+                    "routeIdxTo": 25,
+                    "matchId": "M19"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 17,
+                        "routeIdxTo": 25,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 11
+                }
+            ],
+            "name": "M19",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "18:35:00",
+            "date": "2024-01-14",
+            "rtTime": "18:49:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "Grunewald, Hagenplatz",
+            "directionFlag": "2"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|29716|2|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M19",
+                "internalName": "     M19",
+                "displayNumber": "M19",
+                "num": "44847",
+                "line": "M19",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M19"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M19",
+                    "internalName": "     M19",
+                    "displayNumber": "M19",
+                    "num": "44847",
+                    "line": "M19",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 8,
+                    "routeIdxTo": 26,
+                    "matchId": "M19"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 8,
+                        "routeIdxTo": 26,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 12
+                }
+            ],
+            "name": "M19",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "18:36:00",
+            "date": "2024-01-14",
+            "rtTime": "18:36:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "U Mehringdamm",
+            "directionFlag": "1"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|30755|31|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M29",
+                "internalName": "     M29",
+                "displayNumber": "M29",
+                "num": "45724",
+                "line": "M29",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M29"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M29",
+                    "internalName": "     M29",
+                    "displayNumber": "M29",
+                    "num": "45724",
+                    "line": "M29",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 35,
+                    "routeIdxTo": 45,
+                    "matchId": "M29"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 35,
+                        "routeIdxTo": 45,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 12
+                }
+            ],
+            "name": "M29",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "18:40:00",
+            "date": "2024-01-14",
+            "rtTime": "18:44:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "Grunewald, Roseneck",
+            "directionFlag": "2"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|30651|3|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M29",
+                "internalName": "     M29",
+                "displayNumber": "M29",
+                "num": "45612",
+                "line": "M29",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M29"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M29",
+                    "internalName": "     M29",
+                    "displayNumber": "M29",
+                    "num": "45612",
+                    "line": "M29",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 10,
+                    "routeIdxTo": 44,
+                    "matchId": "M29"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 10,
+                        "routeIdxTo": 44,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 11
+                }
+            ],
+            "name": "M29",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "18:41:00",
+            "date": "2024-01-14",
+            "rtTime": "18:41:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "U Hermannplatz",
+            "directionFlag": "1"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|29798|16|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M19",
+                "internalName": "     M19",
+                "displayNumber": "M19",
+                "num": "44932",
+                "line": "M19",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M19"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M19",
+                    "internalName": "     M19",
+                    "displayNumber": "M19",
+                    "num": "44932",
+                    "line": "M19",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 17,
+                    "routeIdxTo": 26,
+                    "matchId": "M19"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 17,
+                        "routeIdxTo": 26,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 11
+                }
+            ],
+            "name": "M19",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "18:45:00",
+            "date": "2024-01-14",
+            "rtTime": "18:45:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "S Grunewald",
+            "directionFlag": "2"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|29744|2|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M19",
+                "internalName": "     M19",
+                "displayNumber": "M19",
+                "num": "44875",
+                "line": "M19",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M19"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M19",
+                    "internalName": "     M19",
+                    "displayNumber": "M19",
+                    "num": "44875",
+                    "line": "M19",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 7,
+                    "routeIdxTo": 25,
+                    "matchId": "M19"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 7,
+                        "routeIdxTo": 25,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 12
+                }
+            ],
+            "name": "M19",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "time": "18:46:00",
+            "date": "2024-01-14",
+            "reachable": true,
+            "direction": "U Mehringdamm",
+            "directionFlag": "1"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|30755|32|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M29",
+                "internalName": "     M29",
+                "displayNumber": "M29",
+                "num": "45724",
+                "line": "M29",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M29"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M29",
+                    "internalName": "     M29",
+                    "displayNumber": "M29",
+                    "num": "45724",
+                    "line": "M29",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 35,
+                    "routeIdxTo": 45,
+                    "matchId": "M29"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 35,
+                        "routeIdxTo": 45,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 12
+                }
+            ],
+            "name": "M29",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "18:50:00",
+            "date": "2024-01-14",
+            "rtTime": "18:51:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "Grunewald, Roseneck",
+            "directionFlag": "2"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|30651|4|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M29",
+                "internalName": "     M29",
+                "displayNumber": "M29",
+                "num": "45612",
+                "line": "M29",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M29"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M29",
+                    "internalName": "     M29",
+                    "displayNumber": "M29",
+                    "num": "45612",
+                    "line": "M29",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 10,
+                    "routeIdxTo": 44,
+                    "matchId": "M29"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 10,
+                        "routeIdxTo": 44,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 11
+                }
+            ],
+            "name": "M29",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "18:51:00",
+            "date": "2024-01-14",
+            "rtTime": "18:51:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "U Hermannplatz",
+            "directionFlag": "1"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|29823|17|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M19",
+                "internalName": "     M19",
+                "displayNumber": "M19",
+                "num": "44959",
+                "line": "M19",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M19"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M19",
+                    "internalName": "     M19",
+                    "displayNumber": "M19",
+                    "num": "44959",
+                    "line": "M19",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 17,
+                    "routeIdxTo": 25,
+                    "matchId": "M19"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 17,
+                        "routeIdxTo": 25,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 11
+                }
+            ],
+            "name": "M19",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "18:55:00",
+            "date": "2024-01-14",
+            "rtTime": "18:55:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "Grunewald, Hagenplatz",
+            "directionFlag": "2"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|29716|3|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M19",
+                "internalName": "     M19",
+                "displayNumber": "M19",
+                "num": "44847",
+                "line": "M19",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M19"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M19",
+                    "internalName": "     M19",
+                    "displayNumber": "M19",
+                    "num": "44847",
+                    "line": "M19",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 8,
+                    "routeIdxTo": 26,
+                    "matchId": "M19"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 8,
+                        "routeIdxTo": 26,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 12
+                }
+            ],
+            "name": "M19",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "18:56:00",
+            "date": "2024-01-14",
+            "rtTime": "18:56:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "U Mehringdamm",
+            "directionFlag": "1"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|30756|0|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M29",
+                "internalName": "     M29",
+                "displayNumber": "M29",
+                "num": "45725",
+                "line": "M29",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M29"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M29",
+                    "internalName": "     M29",
+                    "displayNumber": "M29",
+                    "num": "45725",
+                    "line": "M29",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 35,
+                    "routeIdxTo": 45,
+                    "matchId": "M29"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 35,
+                        "routeIdxTo": 45,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 11
+                }
+            ],
+            "name": "M29",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "19:00:00",
+            "date": "2024-01-14",
+            "rtTime": "19:00:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "Grunewald, Roseneck",
+            "directionFlag": "2"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|30651|5|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M29",
+                "internalName": "     M29",
+                "displayNumber": "M29",
+                "num": "45612",
+                "line": "M29",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M29"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M29",
+                    "internalName": "     M29",
+                    "displayNumber": "M29",
+                    "num": "45612",
+                    "line": "M29",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 10,
+                    "routeIdxTo": 44,
+                    "matchId": "M29"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 10,
+                        "routeIdxTo": 44,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 11
+                }
+            ],
+            "name": "M29",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "19:01:00",
+            "date": "2024-01-14",
+            "rtTime": "19:01:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "U Hermannplatz",
+            "directionFlag": "1"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|29799|0|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M19",
+                "internalName": "     M19",
+                "displayNumber": "M19",
+                "num": "44933",
+                "line": "M19",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M19"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M19",
+                    "internalName": "     M19",
+                    "displayNumber": "M19",
+                    "num": "44933",
+                    "line": "M19",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 17,
+                    "routeIdxTo": 26,
+                    "matchId": "M19"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 17,
+                        "routeIdxTo": 26,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 11
+                }
+            ],
+            "name": "M19",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "19:05:00",
+            "date": "2024-01-14",
+            "rtTime": "19:05:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "S Grunewald",
+            "directionFlag": "2"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|29744|3|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M19",
+                "internalName": "     M19",
+                "displayNumber": "M19",
+                "num": "44875",
+                "line": "M19",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M19"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M19",
+                    "internalName": "     M19",
+                    "displayNumber": "M19",
+                    "num": "44875",
+                    "line": "M19",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 7,
+                    "routeIdxTo": 25,
+                    "matchId": "M19"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 7,
+                        "routeIdxTo": 25,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 11
+                }
+            ],
+            "name": "M19",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "19:06:00",
+            "date": "2024-01-14",
+            "rtTime": "19:06:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "U Mehringdamm",
+            "directionFlag": "1"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|30756|1|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M29",
+                "internalName": "     M29",
+                "displayNumber": "M29",
+                "num": "45725",
+                "line": "M29",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M29"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M29",
+                    "internalName": "     M29",
+                    "displayNumber": "M29",
+                    "num": "45725",
+                    "line": "M29",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 35,
+                    "routeIdxTo": 45,
+                    "matchId": "M29"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 35,
+                        "routeIdxTo": 45,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 11
+                }
+            ],
+            "name": "M29",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "19:10:00",
+            "date": "2024-01-14",
+            "rtTime": "19:10:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "Grunewald, Roseneck",
+            "directionFlag": "2"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|30651|6|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M29",
+                "internalName": "     M29",
+                "displayNumber": "M29",
+                "num": "45612",
+                "line": "M29",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M29"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M29",
+                    "internalName": "     M29",
+                    "displayNumber": "M29",
+                    "num": "45612",
+                    "line": "M29",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 10,
+                    "routeIdxTo": 44,
+                    "matchId": "M29"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 10,
+                        "routeIdxTo": 44,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 11
+                }
+            ],
+            "name": "M29",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "19:11:00",
+            "date": "2024-01-14",
+            "rtTime": "19:11:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "U Hermannplatz",
+            "directionFlag": "1"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|29824|0|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M19",
+                "internalName": "     M19",
+                "displayNumber": "M19",
+                "num": "44960",
+                "line": "M19",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M19"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M19",
+                    "internalName": "     M19",
+                    "displayNumber": "M19",
+                    "num": "44960",
+                    "line": "M19",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 17,
+                    "routeIdxTo": 25,
+                    "matchId": "M19"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 17,
+                        "routeIdxTo": 25,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 11
+                }
+            ],
+            "name": "M19",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "19:15:00",
+            "date": "2024-01-14",
+            "rtTime": "19:15:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "Grunewald, Hagenplatz",
+            "directionFlag": "2"
+        },
+        {
+            "JourneyDetailRef": {
+                "ref": "1|29716|4|86|14012024"
+            },
+            "JourneyStatus": "P",
+            "ProductAtStop": {
+                "icon": {
+                    "foregroundColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "hex": "#FFFFFF"
+                    },
+                    "backgroundColor": {
+                        "r": 153,
+                        "g": 51,
+                        "b": 153,
+                        "hex": "#993399"
+                    },
+                    "res": "prod_gen"
+                },
+                "operatorInfo": {
+                    "name": "Berliner Verkehrsbetriebe",
+                    "nameS": "BVG",
+                    "nameN": "BVG",
+                    "nameL": "Berliner Verkehrsbetriebe",
+                    "id": "796"
+                },
+                "name": "M19",
+                "internalName": "     M19",
+                "displayNumber": "M19",
+                "num": "44847",
+                "line": "M19",
+                "catOut": "Bus",
+                "catIn": "B",
+                "catCode": "3",
+                "cls": "8",
+                "catOutS": "B",
+                "catOutL": "Bus",
+                "operatorCode": "BVG",
+                "operator": "Berliner Verkehrsbetriebe",
+                "admin": "BVB---",
+                "matchId": "M19"
+            },
+            "Product": [
+                {
+                    "icon": {
+                        "foregroundColor": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "hex": "#FFFFFF"
+                        },
+                        "backgroundColor": {
+                            "r": 153,
+                            "g": 51,
+                            "b": 153,
+                            "hex": "#993399"
+                        },
+                        "res": "prod_gen"
+                    },
+                    "operatorInfo": {
+                        "name": "Berliner Verkehrsbetriebe",
+                        "nameS": "BVG",
+                        "nameN": "BVG",
+                        "nameL": "Berliner Verkehrsbetriebe",
+                        "id": "796"
+                    },
+                    "name": "M19",
+                    "internalName": "     M19",
+                    "displayNumber": "M19",
+                    "num": "44847",
+                    "line": "M19",
+                    "catOut": "Bus",
+                    "catIn": "B",
+                    "catCode": "3",
+                    "cls": "8",
+                    "catOutS": "B",
+                    "catOutL": "Bus",
+                    "operatorCode": "BVG",
+                    "operator": "Berliner Verkehrsbetriebe",
+                    "admin": "BVB---",
+                    "routeIdxFrom": 8,
+                    "routeIdxTo": 26,
+                    "matchId": "M19"
+                }
+            ],
+            "Notes": {
+                "Note": [
+                    {
+                        "value": "barrierefrei",
+                        "key": "bf",
+                        "type": "A",
+                        "priority": 999,
+                        "routeIdxFrom": 8,
+                        "routeIdxTo": 26,
+                        "txtN": "barrierefrei"
+                    },
+                    {
+                        "value": "de:11000:900040151",
+                        "key": "IF",
+                        "type": "I",
+                        "txtN": "de:11000:900040151"
+                    },
+                    {
+                        "value": "BVG;101332",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101332"
+                    },
+                    {
+                        "value": "BVG;101405",
+                        "key": "QR",
+                        "type": "I",
+                        "txtN": "BVG;101405"
+                    },
+                    {
+                        "value": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne",
+                        "key": "TW",
+                        "type": "I",
+                        "txtN": "900040151 5555 Berlin AB % Berlin, Lehniner Platz/Schaubühne"
+                    }
+                ]
+            },
+            "Occupancy": [
+                {
+                    "name": "SECOND",
+                    "raw": 11
+                }
+            ],
+            "name": "M19",
+            "type": "ST",
+            "stop": "Lehniner Platz/Schaubühne (Berlin)",
+            "stopid": "A=1@O=Lehniner Platz/Schaubühne (Berlin)@X=13301806@Y=52498927@U=86@L=900040151@",
+            "stopExtId": "900040151",
+            "lon": 13.301806,
+            "lat": 52.498927,
+            "prognosisType": "PROGNOSED",
+            "time": "19:16:00",
+            "date": "2024-01-14",
+            "rtTime": "19:16:00",
+            "rtDate": "2024-01-14",
+            "reachable": true,
+            "direction": "U Mehringdamm",
+            "directionFlag": "1"
+        }
+    ],
+    "TechnicalMessages": {
+        "TechnicalMessage": [
+            {
+                "value": "2024-01-14 18:17:04",
+                "key": "requestTime"
+            },
+            {
+                "value": "ttp=16078#16420 plancode0=hdttg planid=1704975522 planid0=1704975522 planid_adr=1697026891 plancode_adr=cngl5 planid_poi=1676039069 plancode_poi=z5ma3 planid_ext=1516270147 plancode_ext=c07th srvv=5.45.VBB.15.2.2 (18f80e76d5) [2024-01-11] tlibv=TRFVER: rel/vbb/6.00.4 2024-01-08 10:09:58 +0100 VBB_TARIF + Relay_EnrichmentProxy v1 jno=1",
+                "key": "backendInfo"
+            }
+        ]
+    },
+    "serverVersion": "2.32.4",
+    "dialectVersion": "2.32",
+    "planRtTs": "2024-01-14T18:16:13.000+01:00",
+    "requestId": "y3gwqjq84e2apgck"
+}
