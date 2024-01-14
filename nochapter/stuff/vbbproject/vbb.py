@@ -1,5 +1,8 @@
 import requests
 import json
+import settings
+
+print (settings.password)
 def cutLocation(location):
     percent = False
     newLocation = ""
