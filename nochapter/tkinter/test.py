@@ -1,1 +1,2 @@
-print("deine mom")
+import tkinter
+tkinter._test() 
