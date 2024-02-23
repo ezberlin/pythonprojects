@@ -1,1 +1,1 @@
-print(deine mom")
+print("deine mom")
