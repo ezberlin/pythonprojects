@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
-from pil import Image, ImageTk
+from PIL import Image, ImageTk
 
 root = tk.Tk()
 root.geometry("1080x720")
