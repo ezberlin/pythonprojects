@@ -5,7 +5,8 @@ from PIL import Image, ImageTk
 root = tk.Tk()
 root.geometry("1080x720")
 
-photo = ImageTk.PhotoImage(Image.open("rickroll.jpg"))
+image = Image.open("/Users/ismail/source/pythonprojects/nochapter/tkinter/rickroll.png")
+photo = ImageTk.PhotoImage(image)
 
 label1 = ttk.Label(root)
 label1.pack()
