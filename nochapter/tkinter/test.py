@@ -11,8 +11,11 @@ root.maxsize(1920, 1080)
 root.resizable(width=True, height=True)
 
 #text
-label1 = tk.Label(root, text="Never gonna give you up")
-label1.pack()
+label1 = tk.Label(root, text="Never gonna give you up", bg="red")
+label1.pack(side="left", expand=True, fill="both")
+
+label2 = tk.Label(root, text="Never gonna let you down", bg="orange")
+label2.pack(side="right", expand=True, fill="both")
 
 #main loop
 root.mainloop()
