@@ -86,7 +86,7 @@ def linearFunction(x1, y1, x2, y2):
     n = y1 - x1 * m
     return (m, n)
 
-def squareRoot(number):
+def sqrt(number):
     """returns the root of a number"""
     return number ** 0.5
 
