@@ -94,7 +94,7 @@ class quadratischeFunktion:
             pass
 
 #beispiel
-f = quadratischeFunktion(sp=(),a=1)#mögliche parameter sind p1, p2, p3 und sp als tupel (punkte/scheitelpunkt) sowie a, b, c, d und e als int/float (parameter)
+f = quadratischeFunktion(p1=(0.5, 10),p2=(2, 6.5),p3=(-2, 5))#mögliche parameter sind p1, p2, p3 und sp als tupel (punkte/scheitelpunkt) sowie a, b, c, d und e als int/float (parameter)
 print("Die allgemeine Funktionsgleichung ist",f)
 print("Der Scheitelpunkt ist",f.scheitelpunkt())
 print("Die Scheitelpunktform ist", f.scheitelpunktform())
